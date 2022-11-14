@@ -1,7 +1,17 @@
 /* add your own styles here */
 
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#imageContainer {
+    margin: auto;
+}
+
 #imageContainer img {
-    width: 400px;
-    height: 400px;
+    max-width: 90%;
+    /* height: 400px; */
     margin: auto;
 }
