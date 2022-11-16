@@ -36,14 +36,31 @@
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
     <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Template</title>
+    <title>Media Capture App</title>
 </head>
 
 <body>
     
-    <button id="takePhoto">Take Picture</button>
-    <div id="imageContainer"></div>
+    <div class="buttonContainer">
+        <div class="title">
+            <span class="material-icons">
+                photo_camera
+            </span>
+            <h3>
+                Media Capture App
+            </h3>
+        </div>
+        <button id="takePhoto">
+            TAKE PICTURE
+        </button>
+    </div>
+    <div class="app">
+        <h2>Your Photos:</h2>
+        <div id="imageContainer"></div>
+    </div>
     <script src="cordova.js"></script>
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/index.js"></script>
